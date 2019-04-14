@@ -1,0 +1,19 @@
+//Type Conversion
+
+using System;
+
+namespace Ourcode
+{
+	class program
+	{
+		static void Main(string[] args)
+		{
+			double d = 763.67;
+			int a;
+
+			a = (int)d;
+			Console.WriteLine(a);
+			Console.ReadKey();
+		}
+	}
+}
