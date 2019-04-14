@@ -1,0 +1,21 @@
+using System
+
+namespace Ourcode
+{
+	class program
+	{
+		static void Main(string[] args)
+		{
+			short Smorrs;
+			int Fanboy;
+			double SFANBOY;
+
+			Smorrs = 45;
+			Fanboy =20;
+			SFANBOY = Smorrs + Fanboy; 
+
+			Concole.WriteLine("Smorrs = {0}, Fanboy = {1}, SFANBOY = {2}", Smorrs, Fanboy, SFANBOY); 
+			Console.ReadKey();
+		}
+	}
+}
