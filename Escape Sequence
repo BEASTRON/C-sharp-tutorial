@@ -1,0 +1,13 @@
+using System;
+
+namespace Ourcode
+{
+	class program
+	{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Welcome \tto DABBINGGWITHSMORRS.");
+			Console.ReadKey();
+		}
+	}
+}
