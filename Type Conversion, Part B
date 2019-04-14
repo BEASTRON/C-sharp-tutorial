@@ -1,0 +1,23 @@
+//Type Conversion, part B
+
+using System;
+
+namespace Ourcode
+{
+	class program
+	{
+		static void Main(string[] args)
+		{
+			int a = 40;
+			float f = 10.56f;
+			double d = 2467.84;
+			bool b = true;
+
+			Console.WriteLine(a.ToString());
+			Console.WriteLine(f.ToString());
+			Console.WriteLine(d.ToString());
+			Console.WriteLine(b.ToString());
+			Console.ReadKey();
+		}
+	}
+}
