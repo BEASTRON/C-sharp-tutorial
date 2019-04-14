@@ -1,0 +1,21 @@
+using System;
+
+namespace Ourcode
+{
+	class program
+	{
+		static void Main(String[] args)
+		{
+		// constant declaration
+			const double pi = 3.14159;
+			double R;
+
+			Console.Writeline("Radius required");
+
+			R = Convert.ToDouble(Console.Readline());
+			double areaCircle = pi * pi * R; 
+			ConsoleWriteLine("Radius: {0}, Area: {1}", R, areaCircle);
+			Console.ReadKey();
+		}
+	}
+}
